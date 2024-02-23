@@ -1,16 +1,19 @@
 # smahone
 
-A new Flutter project.
+xxx
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+このプロジェクトではfvm v2.4.1を使用しています。
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+$ git clone https://github.com/uyupun/smahone.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+$ cd smahone
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+$ fvm use 3.19.0
+
+$ flutter pub get
+
+$ flutter run
+```

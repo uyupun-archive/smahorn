@@ -1,4 +1,4 @@
-package com.example.smahone
+package com.example.smahorn
 
 import io.flutter.embedding.android.FlutterActivity
 

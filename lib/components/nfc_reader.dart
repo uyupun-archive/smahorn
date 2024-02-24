@@ -3,8 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:nfc_manager/nfc_manager.dart';
-import 'package:smahone/constants/identifiers.dart';
-import 'package:smahone/utils/play_audio.dart';
+import 'package:smahorn/constants/identifiers.dart';
+import 'package:smahorn/utils/play_audio.dart';
 
 class NfcReader extends HookWidget {
   const NfcReader({super.key});

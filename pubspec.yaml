@@ -38,6 +38,7 @@ dependencies:
   nfc_manager: ^3.3.0
   flutter_hooks: ^0.20.5
   audioplayers: ^5.2.1
+  collection: ^1.18.0
 
 dev_dependencies:
   flutter_test:

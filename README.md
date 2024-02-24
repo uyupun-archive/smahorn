@@ -1,4 +1,4 @@
-# smahone
+# Smahorn
 
 **シン・ハンドベル**
 
@@ -7,9 +7,9 @@
 このプロジェクトではfvm v2.4.1を使用しています。
 
 ```bash
-$ git clone https://github.com/uyupun/smahone.git
+$ git clone https://github.com/uyupun/smahorn.git
 
-$ cd smahone
+$ cd smahorn
 
 $ fvm use 3.19.0
 

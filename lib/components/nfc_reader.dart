@@ -1,6 +1,10 @@
+import 'package:collection/collection.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:nfc_manager/nfc_manager.dart';
+import 'package:smahone/constants/identifiers.dart';
+import 'package:smahone/utils/play_audio.dart';
 
 class NfcReader extends HookWidget {
   const NfcReader({super.key});
@@ -34,7 +38,14 @@ class NfcReader extends HookWidget {
           print('🤖 startSession');
           final ndef = Ndef.from(tag);
           if (ndef != null) {
-            print(ndef.additionalData);
+            final id = ndef.additionalData['identifier'];
+            print(id);
+            final tone = tones.entries.firstWhereOrNull(
+              (ele) => listEquals(ele.value, id),
+            );
+            if (tone != null) {
+              playAudio(tone.key);
+            }
           } else {
             print("🤖 Tag is not compatible with NDEF");
           }

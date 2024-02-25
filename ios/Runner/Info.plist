@@ -46,6 +46,6 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NFCReaderUsageDescription</key>
-	<string>任意のテキスト</string>
+	<string>We need to use NFC</string>
 </dict>
 </plist>
